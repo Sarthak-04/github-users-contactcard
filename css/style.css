@@ -1,0 +1,69 @@
+
+td {
+    min-width:300px;
+    width: 95%;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 40px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+option {
+	padding-right: 0;
+}
+
+select {
+    font-size: 1em;
+}
+
+.searchInput {
+    padding-left: 15px;
+}
+
+#searchInput {
+    margin-bottom: 30px;
+}
+
+#addButton {
+    padding: 6px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.optionsList {
+    padding-right: 10px;
+}
+
+.img-wrap {
+    position: relative;
+    font-size: 0;
+}
+
+.img-wrap .close {
+    position: absolute;
+    right: 5px;
+    padding: 15px 15px 10px 10px;
+    color: #000;
+    font-size: 22px;
+    line-height: 10px;
+}
+
+.card img{
+    width : 95%;
+    padding : 5px 0 0 5px;
+}
+
+.content {
+    margin: 0 0 25px 15px;
+}
+
+.lab {
+    font-size: large;
+}
+
+.followers, .name, .location, .sortOptions {
+        font-size: 1.2em;
+}

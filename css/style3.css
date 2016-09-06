@@ -1,0 +1,87 @@
+ /*custom styling info for smartphones small screens;
+    All columns are just displayed one below the other */
+body {
+    padding: 2em 3em 1em 3em;
+    font-size: 1.4em;
+}
+
+input {
+    font-size: 0.7em;
+}
+
+h3 {
+    font-size: 1.2em; 
+}
+
+ul {
+    padding-left: 15px;
+}
+
+option {
+    padding-right: 0;
+}
+
+table tr td:nth-child(n) {
+    width: 20%;
+    display: inline-block;
+    padding: 40px 50px 0 0;
+}
+
+#addButton {
+    font-size: 0.7em;
+    width: 10%;
+    max-width:60px;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+
+.lab  {
+    font-size: 0.9em;
+}
+
+
+ 
+.card img {
+    width: 99%;
+}  
+
+.options .optionsList {
+    margin-right: 5px;
+} 
+
+
+.content {
+    margin: 0 0 25px 15px;
+}
+
+.searchInput {
+    padding-left: 15px;
+}
+
+#searchInput{
+    margin-bottom: 30px;
+}
+
+.optionsList {
+    padding-right: 10px;
+}
+
+.img-wrap {
+    position: relative;
+    font-size: 0;
+}
+
+.img-wrap .close {
+    position: absolute;
+    right: 5px;
+    padding: 15px 15px 10px 10px;
+    color: #000;
+    font-size: 22px;
+    line-height: 10px;
+}
+
+.followers, .name, .location, .sortOptions, select {
+    font-size: 1em;
+}

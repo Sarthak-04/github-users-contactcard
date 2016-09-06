@@ -1,0 +1,97 @@
+/* this is the breakpoint where we transition from the first layout, of 
+          four side-by-side columns, to the square layout with nX3 grid */
+body {
+	padding: 2em 2em 1em 2em; 
+	font-size: 1.4em;
+}
+
+table {
+	width: 100%;
+	border-spacing: collapse;
+}
+
+select {
+	font-size: 1em;
+}
+ul {
+    padding-left: 15px;
+}
+
+option {
+	padding-right: 0;
+}
+
+table tr td:nth-child(n) {
+	width: 28%;
+	display: inline-block;
+	padding: 40px 50px 0 0;
+	min-width:280px;
+	padding-bottom: 10px;
+}
+
+input {
+	font-size: 0.7em;
+}
+.searchInput {
+	padding-left: 15px;
+}
+
+#searchInput{
+	margin-bottom: 30px;
+}
+
+#addButton{
+	background-color: #008CBA; 
+	border: none;
+	color: white;
+	padding: 6px;
+	font-size: 0.7em;
+	border-radius: 4px;
+	max-width: 60px;
+	min-width: 60px;
+	}
+
+.optionsList {
+	padding-right: 10px;
+}
+
+.img-wrap {
+	position: relative;
+	font-size: 0;
+}
+
+.img-wrap .close {
+	position: absolute;
+	right: 5px;
+	padding: 15px 15px 10px 10px;
+	color: #000;
+	font-size: 22px;
+	line-height: 10px;
+}
+
+.card img{
+	width : 95%;
+	padding : 5px 0 0 5px;
+}
+
+.content {
+	margin: 0 0 25px 15px;
+}
+
+.lab {
+	font-size: .9em;
+}
+
+.card {
+	width: 100%;
+}
+
+.container {
+	min-width: 260px;
+}
+
+.followers, .name, .location, .sortOptions {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 0.9em;
+}

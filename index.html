@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="css/mobile-style.css" />
+ 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 501px) and (max-width: 600px)" href="css/style.css" />
+ 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 601px) and (max-width: 1200px)" href="css/style1.css" />
+ 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1201px) and (max-width: 1500px)" href="css/style2.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1501px)" href="css/style3.css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Github</title>
+</head>
+
+<body>
+	<div class="searchInput">
+	    <input type="text" id="search" placeholder="github login">
+	    <button type="submit" id="addButton" onclick="addUser()"  value="Add">Add</button>
+	</div>
+
+	<hr>
+
+
+	<nav class="navigationLargeScreen">
+	<ul class="options">
+		<li class="sortOptions"><h4>Sort By:</h4> </li>
+		<li class="name optionsList active">
+			<select id="sel" onchange="sortBy(value);">
+			    <option value="" disabled selected>Name</option>
+			    <option value="1">Ascending</option>
+			    <option value="2">Descending</option>
+			</select>
+		</li>
+		<li class="location optionsList">Location</li>
+		<li class="followers optionsList">Followers</li>
+	</ul>
+	</nav>
+
+	<nav class="navigationSmallScreen"> 
+	<div class="options">
+		<h4 class="sortOptions">Sort By:</h4>
+		<select onchange="sortBy(value);">
+			<optgroup label="Name">
+				<option value="1" > Ascending </option>
+				<option value="2"> Descending </option>
+			</optgroup>
+			<option class="location optionsList" value="3"> Location </option>
+			<option class="followers optionsList" selected value="4"> Followers </option>
+		</select>
+	</div>
+	</nav>
+
+	<table>
+	  	<tr class = "tableRow">
+	   	</tr>
+	</table>
+	
+	<!--   	<td>
+	    	<div class="card" >
+				<a class="container" href="#">
+				<div class="img-wrap">
+    				<span class="close">&#10006;</span>
+					<img src="https://avatars.githubusercontent.com/u/5730687?v=3">
+				</div>
+
+					<h4><b>John Doe</b></h4> 
+					<li><label class="lab1"><b>Location</b> flkjsfjsjfdsjfjjfjskfjjlkflkjsfjsjfdsjfjjfjskfjjlkflkjsfjsjfdsjfjjfjskfjjlk</label></li>
+					<li><label class="lab2"><b> Followers </b></label></li>
+				</a>
+			</div>
+	    </td> -->
+	    
+</body>
+<script src="javascript/jquery-3.1.0.min.js"></script>
+<script src="javascript/app.js"></script>
+<script> $( document ).ready(function() {
+        init();
+    });
+</script>
+</html>
